@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1B10452AD4745B00C821A7 /* RemindersCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA1B10432AD4745B00C821A7 /* RemindersCoreData.xcdatamodeld */; };
+		AA1B10472AD4785900C821A7 /* RemindersUtilityGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B10462AD4785900C821A7 /* RemindersUtilityGR.swift */; };
+		AA1B10492AD4790500C821A7 /* RemindersCellGR.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B10482AD4790500C821A7 /* RemindersCellGR.swift */; };
+		AA1B104B2AD47AD600C821A7 /* RemindersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B104A2AD47AD600C821A7 /* RemindersVC.swift */; };
+		AA6A69B02ADB063D00045015 /* ReminderNotificationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6A69AF2ADB063D00045015 /* ReminderNotificationUtility.swift */; };
+		AAFF94AE2AD0710B002051D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF94AD2AD0710B002051D3 /* AppDelegate.swift */; };
+		AAFF94B02AD0710B002051D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF94AF2AD0710B002051D3 /* SceneDelegate.swift */; };
+		AAFF94B22AD0710B002051D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF94B12AD0710B002051D3 /* ViewController.swift */; };
+		AAFF94B52AD0710B002051D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFF94B32AD0710B002051D3 /* Main.storyboard */; };
+		AAFF94B72AD0710E002051D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFF94B62AD0710E002051D3 /* Assets.xcassets */; };
+		AAFF94BA2AD0710E002051D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFF94B82AD0710E002051D3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1B10442AD4745B00C821A7 /* RemindersCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersCoreData.xcdatamodel; sourceTree = "<group>"; };
+		AA1B10462AD4785900C821A7 /* RemindersUtilityGR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersUtilityGR.swift; sourceTree = "<group>"; };
+		AA1B10482AD4790500C821A7 /* RemindersCellGR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersCellGR.swift; sourceTree = "<group>"; };
+		AA1B104A2AD47AD600C821A7 /* RemindersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersVC.swift; sourceTree = "<group>"; };
+		AA6A69AF2ADB063D00045015 /* ReminderNotificationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderNotificationUtility.swift; sourceTree = "<group>"; };
+		AAFF94AA2AD0710B002051D3 /* RemindersAppGr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersAppGr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFF94AD2AD0710B002051D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAFF94AF2AD0710B002051D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAFF94B12AD0710B002051D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAFF94B42AD0710B002051D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAFF94B62AD0710E002051D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFF94B92AD0710E002051D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAFF94BB2AD0710E002051D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFF94A72AD0710B002051D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFF94A12AD0710B002051D3 = {
+			isa = PBXGroup;
+			children = (
+				AAFF94AC2AD0710B002051D3 /* RemindersAppGr */,
+				AAFF94AB2AD0710B002051D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFF94AB2AD0710B002051D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF94AA2AD0710B002051D3 /* RemindersAppGr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFF94AC2AD0710B002051D3 /* RemindersAppGr */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF94AD2AD0710B002051D3 /* AppDelegate.swift */,
+				AAFF94AF2AD0710B002051D3 /* SceneDelegate.swift */,
+				AAFF94B12AD0710B002051D3 /* ViewController.swift */,
+				AAFF94B32AD0710B002051D3 /* Main.storyboard */,
+				AAFF94B62AD0710E002051D3 /* Assets.xcassets */,
+				AAFF94B82AD0710E002051D3 /* LaunchScreen.storyboard */,
+				AAFF94BB2AD0710E002051D3 /* Info.plist */,
+				AA1B10432AD4745B00C821A7 /* RemindersCoreData.xcdatamodeld */,
+				AA1B10462AD4785900C821A7 /* RemindersUtilityGR.swift */,
+				AA1B10482AD4790500C821A7 /* RemindersCellGR.swift */,
+				AA1B104A2AD47AD600C821A7 /* RemindersVC.swift */,
+				AA6A69AF2ADB063D00045015 /* ReminderNotificationUtility.swift */,
+			);
+			path = RemindersAppGr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFF94A92AD0710B002051D3 /* RemindersAppGr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFF94BE2AD0710E002051D3 /* Build configuration list for PBXNativeTarget "RemindersAppGr" */;
+			buildPhases = (
+				AAFF94A62AD0710B002051D3 /* Sources */,
+				AAFF94A72AD0710B002051D3 /* Frameworks */,
+				AAFF94A82AD0710B002051D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemindersAppGr;
+			productName = RemindersAppGr;
+			productReference = AAFF94AA2AD0710B002051D3 /* RemindersAppGr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFF94A22AD0710B002051D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AAFF94A92AD0710B002051D3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AAFF94A52AD0710B002051D3 /* Build configuration list for PBXProject "RemindersAppGr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFF94A12AD0710B002051D3;
+			productRefGroup = AAFF94AB2AD0710B002051D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFF94A92AD0710B002051D3 /* RemindersAppGr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFF94A82AD0710B002051D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFF94BA2AD0710E002051D3 /* LaunchScreen.storyboard in Resources */,
+				AAFF94B72AD0710E002051D3 /* Assets.xcassets in Resources */,
+				AAFF94B52AD0710B002051D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFF94A62AD0710B002051D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1B10492AD4790500C821A7 /* RemindersCellGR.swift in Sources */,
+				AA1B10472AD4785900C821A7 /* RemindersUtilityGR.swift in Sources */,
+				AAFF94B22AD0710B002051D3 /* ViewController.swift in Sources */,
+				AA1B104B2AD47AD600C821A7 /* RemindersVC.swift in Sources */,
+				AAFF94AE2AD0710B002051D3 /* AppDelegate.swift in Sources */,
+				AA1B10452AD4745B00C821A7 /* RemindersCoreData.xcdatamodeld in Sources */,
+				AAFF94B02AD0710B002051D3 /* SceneDelegate.swift in Sources */,
+				AA6A69B02ADB063D00045015 /* ReminderNotificationUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAFF94B32AD0710B002051D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFF94B42AD0710B002051D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAFF94B82AD0710E002051D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAFF94B92AD0710E002051D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAFF94BC2AD0710E002051D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFF94BD2AD0710E002051D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFF94BF2AD0710E002051D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ReminderAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7R98FS4DF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemindersAppGr/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "RemindME!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synchronoss.RemindersAppGr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAFF94C02AD0710E002051D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ReminderAppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7R98FS4DF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RemindersAppGr/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "RemindME!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synchronoss.RemindersAppGr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFF94A52AD0710B002051D3 /* Build configuration list for PBXProject "RemindersAppGr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFF94BC2AD0710E002051D3 /* Debug */,
+				AAFF94BD2AD0710E002051D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFF94BE2AD0710E002051D3 /* Build configuration list for PBXNativeTarget "RemindersAppGr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFF94BF2AD0710E002051D3 /* Debug */,
+				AAFF94C02AD0710E002051D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA1B10432AD4745B00C821A7 /* RemindersCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA1B10442AD4745B00C821A7 /* RemindersCoreData.xcdatamodel */,
+			);
+			currentVersion = AA1B10442AD4745B00C821A7 /* RemindersCoreData.xcdatamodel */;
+			path = RemindersCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAFF94A22AD0710B002051D3 /* Project object */;
+}
